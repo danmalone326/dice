@@ -1,5 +1,5 @@
-$fa = 1;  // 1 for rendering     6 for design
-$fs = .04;  // .04 for rendering   1 for design
+$fa = 6;  // 1 for rendering     6 for design
+$fs = 1;  // .04 for rendering   1 for design
 
 module filletCube(side,filletRadius) {
     d = side/2 - filletRadius;
@@ -57,7 +57,7 @@ module facePips(number,side,pipRadius=1,maxAngle=40,faceRotation=[0,0,0]) {
     }
 }
 
-size = 50;
+size = 30;
 fillet = size/10;
 maxOverhangDegrees = 40;
 
